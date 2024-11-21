@@ -26,6 +26,15 @@ Before running the script, ensure you have the following prerequisites installed
 - YOLOv3 weights and configuration files (Included in this repository)
 - COCO names file (Included in this repository)
 
+Download YOLOv3, COCO names:
+
+```bash
+wget https://pjreddie.com/media/files/yolov3.weights
+wget https://raw.githubusercontent.com/pjreddie/darknet/master/cfg/yolov3.cfg
+wget https://raw.githubusercontent.com/pjreddie/darknet/master/data/coco.names
+```
+
+
 You can install the required Python libraries using pip:
 
 ```bash
