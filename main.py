@@ -20,7 +20,7 @@ while True:
     if not ret:
         cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
         continue
-    frame = cv2.resize(frame[:, 250: -100], (1000, 800))
+    frame = cv2.resize(frame[:, 250: -100], (800, 800))
     if processFrame == True:
         boxes = net.predict(frame)
         boxes = boxes[0].boxes.xywh
