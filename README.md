@@ -15,3 +15,7 @@ cap = cv2.VideoCapture("path_to_an_mp4_file.mp4")
 ```bash
 python main.py
 ```
+
+# Reference
+YOLO: https://docs.ultralytics.com/models/yolov8/ 
+
