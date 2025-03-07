@@ -1,7 +1,7 @@
 # Set up
 
 ```bash
-pip install cv2 numpy ultralytics
+pip install opencv-python numpy ultralytics
 ```
 
 The application is prepared with videos `test.mp4` and `text1.mp4` in advance. To use another video file, provide the file path:
